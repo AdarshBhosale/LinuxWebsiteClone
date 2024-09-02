@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Background color for the body */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 90px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #333;
+    padding-top: 40px;
+}
+
+.language-dropdown {
+    float: right;
+    margin-top: -27px;
+    padding-right: 90px;
+}
+
+select {
+    padding: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+}
+
+main {
+    text-align: center;
+    padding: 130px;
+    color: #fff;
+    background-color: #18BC9C;
+}
+
+#img1 {
+    padding-bottom: 30px;
+    max-width: 300px;
+}
+
+/* Email subscription form */
+.subscription-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.subscription-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.email-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.subscribe-button {
+    padding: 10px 20px;
+    background-color: #00c9a7;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: #00b495;
+}
+
+/* Card styles */
+.container1 {
+    text-align: center;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: start;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 200px; /* Set a fixed width for all cards */
+    height: 300px; /* Set a fixed height for all cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 25px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    font-size: 14px;
+    color: #777;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #00c9a7; /* Change background color on hover */
+}
+
+/* Footer styles */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2f3b4c; /* Dark blue background similar to your image */
+    padding: 20px 0; /* Padding inside the footer */
+    color: #fff; /* White text color */
+    text-align: center;
+}
+
+.footer-column {
+    flex: 1;
+    margin-bottom: 50px;
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.footer-column p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.footer-column a {
+    color: #5a9bda; /* Blue color for links */
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
