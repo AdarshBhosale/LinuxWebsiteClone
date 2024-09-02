@@ -10,6 +10,6 @@ CSS 🎨
 Responsive design 📱💻
 Clean and structured layout 🖼️
 Accurate recreation of the original website’s look and feel 🎯
-Live Demo: https://adarshbhosale.github.io/linux-website-clone/
+Live Demo: https://adarshbhosale.github.io/LinuxWebsiteClone/
 
 Show some ❤️ and ⭐ the repo if you like the design.
